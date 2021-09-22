@@ -1,5 +1,6 @@
+//big number adition
 #include<bits/stdc++.h>
-#include<cstring>
+
 using namespace std;
 using ll=long long;
 string bigSum(string s1, string s2){
@@ -13,6 +14,11 @@ string bigSum(string s1, string s2){
         intsum=(s1[i]-'0')+(s2[i+digitdiffer]-'0')+carry;
         sum.push_back(intsum%10+'0');
         carry=intsum/10;       
+    }
+    for(int i=digitdiffer-1; i>=0; i--){
+        intsum=(s2[i]-'0')+carry;
+        sum.push_back(intsum%10+'0');
+        carry=intsum/10; 
     }
     if(carry)
       sum.push_back(carry+'0');
