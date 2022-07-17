@@ -23,6 +23,6 @@ int32_t main() {
      ios_base::sync_with_stdio(0);cin.tie(0);
      prec();
      string a, b; cin >>  a >> b;
-     cout<<get_hash(a) - get_hash(b)<<'\n';
+     cout<<(get_hash(a) == get_hash(b))<<'\n';
      return 0;
 }
