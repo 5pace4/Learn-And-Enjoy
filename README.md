@@ -1,13 +1,12 @@
 # Git Configure:
 
-to add username-
+##### to add username-
 1. git config --global user.name "your_username"
 
-to add email-
-
+##### to add email-
 2. git config --global user.email "your_email_address@example.com"
 
-to check-
+##### to check-
 3. git config --global --list
 
 # switch github:
@@ -18,7 +17,7 @@ to check-
 
 
 # Create Clone in your pc(colaboration):
-command: git cole (paste link)
+command: git clone (paste link)
 
 # commit & push from master branch
 1. git add .
