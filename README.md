@@ -19,13 +19,13 @@
 # Create Clone in your pc(colaboration):
 command: git clone (paste link)
 
-# commit & push from master branch
+# commit & push from master branch:
 1. git add .
 2. git commit -m "write your message"
 3. git push
 
-# commit & push from master branch
-1. git checkout -b feature //here feature is the branch_name. you can set any name as you like
+# commit & push from another branch:
+1. git checkout -b feature //here feature is the branch_name. you can set any name as you like to create a new branch
 2. git push origin feature //branch_name
 
 then you shoul pull request.
