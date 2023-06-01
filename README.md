@@ -28,4 +28,4 @@
     1. git checkout -b feature //here feature is the branch_name. you can set any name as you like to create a new branch
     2. git push origin feature //branch_name
 
-then you shoul pull request.
+then you should pull request.
