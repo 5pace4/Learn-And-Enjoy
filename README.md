@@ -9,7 +9,7 @@
 ##### to check-
 3. git config --global --list
 
-# switch github:
+# switch github account:
 
 1. logout current github account from browser
 2. login new account
